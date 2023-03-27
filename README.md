@@ -1,2 +1,2 @@
 # sales-program
-Sales Program Using PHP and SQL Database
+simple sales program using PHP and MySQL database
