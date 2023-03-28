@@ -33,11 +33,6 @@
 		</ul>
 	</div>
 </header>
-<br/>
-<center>
-	<h1>TOKO ALAM KERAMIK<br/> </h1>
-	<h2>Jl. Anjuk Ladang - Nganjuk<br/> </h2>
-</center>
 </body>
 </html>
 
