@@ -1,5 +1,5 @@
 <?php
-include "koneksi.php";
+include "connect.php";
 	
 	//variabel untuk menangkap masukan data
 	$barcode		= $_POST["barcode"];
@@ -13,7 +13,7 @@ include "koneksi.php";
 ?>
 		<script language="JavaScript">
 		alert('Isian barcode masih kosong. Silahkan diisi dahulu');
-		document.location='isi-barang.php';
+		document.location='input-item.php';
 		</script>
 	<?php
 	}
@@ -22,7 +22,7 @@ include "koneksi.php";
 	?>
 		<script language="JavaScript">
 		alert('Isian Nama masih kosong. Silahkan diisi dahulu');
-		document.location='isi-barang.php';
+		document.location='input-item.php';
 		</script>
 	<?php
 	}
@@ -30,7 +30,7 @@ include "koneksi.php";
 	?>
 		<script language="JavaScript">
 		alert ('Isian satuan masih kosong. Silahkan diisi dahulu');
-		document.location='isi-barang.php';
+		document.location='input-item.php';
 		</script>
 	<?php
 	}
@@ -38,7 +38,7 @@ include "koneksi.php";
 	?>
 		<script language="JavaScript">
 		alert ('Isian harga barang masih kosong. Silahkan diisi dahulu');
-		document.location='isi-barang.php';
+		document.location='input-item.php';
 		</script>
 	<?php
 	}
@@ -46,7 +46,7 @@ include "koneksi.php";
 	?>
 		<script language="JavaScript">
 		alert ('Isian stok barang masih kosong. Silahkan diisi dahulu');
-		document.location='isi-barang.php';
+		document.location='input-item.php';
 		</script>
 	<?php
 	}
@@ -62,7 +62,7 @@ include "koneksi.php";
 		?>
 			<script language="JavaScript">
 			alert('Barcode yang sama sudah digunakan');
-			document.location='isi-barang.php';
+			document.location='input-item.php';
 			</script>
 		<?php
 		}
@@ -81,7 +81,7 @@ include "koneksi.php";
 			?>
 					<script language="JavaScript">
 					alert('Proses Simpan Data Berhasil!');
-					document.location='isi-barang.php';
+					document.location='input-item.php';
 					</script>
 			<?php
 					exit;
