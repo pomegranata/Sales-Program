@@ -8,7 +8,7 @@
 <br>
 
 <?php
-require_once'koneksi.php';
+require_once'connect.php';
 $no = 1;
 ?>
 <h2>LAPORAN DATA SATUAN BARANG</h2>
@@ -16,7 +16,7 @@ $no = 1;
 	<form method="post">
 		<input type="text" name="nt" placeholder="Cari Data ...">
 		<input type="submit" name="submit" value="Cari Data">
-		<input type="button" onclick="location.href='lihat_satuan.php';" value="Tampilkan Semua"
+		<input type="button" onclick="location.href='show_unit.php';" value="Tampilkan Semua"
 	<form>
 <br/>
 <br/>
