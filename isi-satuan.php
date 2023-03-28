@@ -13,14 +13,11 @@
 					<td width="65%"><font color="Red" size="6">Form Input Data Master Satuan Barang</font></td>
 				<tr height="46">
 					<td></td>
+					<tr height="46">
+					<td></td>
 					<td><font size="3">Satuan</font></td>
-					<td><select name="satuan">
-						<option value="-">- Satuan Barang -
-						<option value="PCS">PCS
-						<option value="Box">Box
-						<option value="Kaleng">Kaleng
-						<option value="Pack">Pack
-					</select></td>
+					<td><input type="text" name="satuan" size="50" maxlength="30" /></td>
+				</tr>
 				<tr height="46">
 					<td></td>
 					<td></td>
