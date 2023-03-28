@@ -4,7 +4,7 @@ include "koneksi.php";
 	$satuan			= $_POST["satuan"];
 
 	
-	if($satuan=="-"){
+	if($satuan==""){
 ?>
 		<script language="JavaScript">
 		alert ('Isian satuan barang masih kosong. Silahkan diisi dahulu');
